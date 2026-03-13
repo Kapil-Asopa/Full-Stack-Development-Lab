@@ -1,0 +1,55 @@
+/* ===== BODY ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ===== HERO SECTION ===== */
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== HIGHLIGHT TEXT ===== */
+.highlight {
+    color: #0d6efd;
+}
+
+/* ===== PROJECT CARD ===== */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+    border-left: 5px solid #0d6efd;
+    padding-left: 15px;
+}
+
+/* ===== CONTACT FORM ===== */
+#contact input,
+#contact textarea {
+    border-radius: 10px;
+}
+
+/* ===== FOOTER LINKS ===== */
+footer a {
+    text-decoration: none;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+    #hero h1 {
+        font-size: 2rem;
+    }
+}
